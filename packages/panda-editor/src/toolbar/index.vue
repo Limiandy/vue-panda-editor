@@ -116,7 +116,7 @@ export default {
           text: "插入音频"
         },
         {
-          icon: "publish",
+          icon: "forward",
           text: "发布文章"
         },
         {
@@ -134,6 +134,9 @@ export default {
   },
   methods: {
     select(val) {
+      if (val === 8) {
+        return;
+      }
       this.showPop = val;
     },
     cancel() {
@@ -172,6 +175,8 @@ export default {
   height: 40px;
   background-color: #d9d9d9;
   padding-right: 10px;
+  margin: 15px auto;
+  box-shadow: 0px 1px 1px rgba($color: #000000, $alpha: 0.03);
 }
 .toolbar-item {
   height: 100%;
@@ -181,6 +186,11 @@ export default {
   &:hover {
     &::after {
       display: none;
+    }
+  }
+  &:nth-last-child(3) {
+    a {
+      padding: 15px;
     }
   }
   a {
@@ -195,9 +205,19 @@ export default {
       cursor: pointer;
       color: #fff;
       background-color: #595959;
+      i {
+        color: #fff;
+      }
     }
     i {
-      font-size: 18px;
+      font-size: 20px;
+      color: #333;
+    }
+    .icon-forward {
+      font-size: 16px;
+      position: relative;
+      top: 2px;
+      right: 5px;
     }
   }
 }

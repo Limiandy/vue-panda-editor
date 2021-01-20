@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "12603851",
+      "name": "forward",
+      "font_class": "forward",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
       "icon_id": "7664336",
       "name": "down",
       "font_class": "down",
@@ -67,13 +74,6 @@
       "font_class": "full",
       "unicode": "e61c",
       "unicode_decimal": 58908
-    },
-    {
-      "icon_id": "12240839",
-      "name": "前进",
-      "font_class": "publish",
-      "unicode": "e601",
-      "unicode_decimal": 58881
     },
     {
       "icon_id": "1500781",

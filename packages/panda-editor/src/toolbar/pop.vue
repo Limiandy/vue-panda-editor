@@ -30,16 +30,16 @@ export default {
 .pop {
   position: absolute;
   z-index: 100;
-  padding: 5px;
+  padding: 10px;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   white-space: nowrap;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 5px;
 }
 .right {
-  top: 5px;
-  left: calc(100% + 15px);
+  top: 2px;
+  left: calc(100% + 16px);
   &::before {
     content: "";
     width: 0;
@@ -48,13 +48,13 @@ export default {
     border-right: 5px solid rgba(0, 0, 0, 0.8);
     border-bottom: 5px solid transparent;
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: -5px;
   }
 }
 .top {
-  bottom: calc(100% + 15px);
-  left: -25%;
+  bottom: calc(100% + 10px);
+  left: -35%;
   &::before {
     content: "";
     width: 0;
@@ -68,8 +68,8 @@ export default {
   }
 }
 .center {
-  bottom: calc(100% + 15px);
-  left: 3px;
+  bottom: calc(100% + 10px);
+  left: -3px;
   &::before {
     content: "";
     width: 0;

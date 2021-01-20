@@ -23,10 +23,10 @@
 }
 
 .fade-leave-active {
-  animation: bounceOut 0.3s;
+  animation: bounceOut 0.2s;
 }
 
 .fade-enter-active,
 .fade-enter-to {
-  animation: bounceIn 0.3s;
+  animation: bounceIn 0.2s;
 }

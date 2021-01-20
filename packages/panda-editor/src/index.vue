@@ -111,6 +111,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./normalize.css";
 .edit-content {
   width: 100%;
   height: 100%;
